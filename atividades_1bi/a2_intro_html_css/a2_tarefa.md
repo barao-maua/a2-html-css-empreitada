@@ -103,7 +103,7 @@ h1 {
 
 ### Opcional Recomendado
 
-- Cada aluno deve criar uma branch com seu nome `git checkout -b seunome` 
+- Cada aluno deve criar uma branch com seu nome `"git checkout -b BrunoSaraiva"` 
 - Abrir um **Pull Request** para a branch `main` marcando o seu outro colega de grupo como revisor
 - Faça `git fetch --all` e observe o que mudou
 

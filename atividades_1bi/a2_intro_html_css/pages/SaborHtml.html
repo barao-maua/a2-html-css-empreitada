@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabor Energético - Mansão Maromba</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #06c3dc;
+        color: #111;
+      }
+
+      header {
+        background-color: #fb1d86;
+        color: white;
+        padding: 30px 16px;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+      }
+
+      header p {
+        margin: 8px 0 0;
+        opacity: 0.95;
+      }
+
+      main {
+        padding: 20px;
+        margin-bottom: 80px;
+        max-width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      section {
+        background-color: white;
+        padding: 25px;
+        margin-bottom: 25px;
+        border-radius: 12px;
+      }
+
+      h2 {
+        color: #fb1d86;
+        margin-top: 0;
+      }
+
+      p {
+        line-height: 1.65;
+        margin: 10px 0;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      ul li {
+        margin-bottom: 6px;
+      }
+
+      .produto-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 40px;
+        align-items: center;
+        background-color: white;
+        padding: 30px;
+        border-radius: 12px;
+      }
+
+      @media (max-width: 900px) {
+        .produto-grid {
+          grid-template-columns: 1fr;
+          text-align: center;
+        }
+      }
+
+      .produto-imagem img {
+        width: 100%;
+        max-width: 380px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .produto-info h2 {
+        line-height: 1.15;
+        margin-bottom: 12px;
+      }
+
+      .produto-info p {
+        max-width: 42ch;
+      }
+
+      .preco {
+        font-size: 30px;
+        font-weight: bold;
+        color: #fb1d86;
+        margin: 15px 0 10px 0;
+      }
+
+      .tagline {
+        font-size: 14px;
+        opacity: 0.8;
+      }
+
+      .meme-box {
+        background: #f2fbff;
+        border-left: 6px solid #06c3dc;
+        padding: 15px;
+        border-radius: 8px;
+      }
+
+      .meme-box p {
+        max-width: 860px;
+      }
+
+      .video-container {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      .video-container video {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 8px;
+      }
+
+      .alerta {
+        background-color: #111;
+        color: white;
+        padding: 14px;
+        border-radius: 8px;
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 12px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Sabor Energético</h1>
+      <p>Não é HTML. É o sabor.</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Contexto do Meme</h2>
+
+        <div class="meme-box">
+          <p>
+            “Sabor energético” virou meme porque pega uma situação muito comum:
+            tem coisa que parece entregar energia (pela embalagem, cor neon,
+            marketing e até o gosto), mas quando alguém pergunta “é energético
+            mesmo?”, a resposta é um balde de sinceridade:
+            <strong>não é energético… é só sabor de energético</strong>.
+          </p>
+
+          <p>
+            A graça está nessa quebra de expectativa. Em vez de prometer
+            “efeito”, o meme assume que é mais
+            <strong>estética + hype</strong> do que resultado. E daí a expressão
+            virou uma resposta pronta pra tudo que vende a ideia de potência,
+            mas entrega só o “clima”.
+          </p>
+        </div>
+      </section>
+
+      <section class="produto-grid">
+        <div class="produto-imagem">
+          <img
+            src="../Images/vodka-cafeina.png"
+            alt="Mansão Maromba - Vodka + Cafeína"
+          />
+        </div>
+
+        <div class="produto-info">
+          <h2>Explosão Extraterrestre</h2>
+
+          <p>
+            O produto entra no meme justamente por causa do conceito: ele não
+            precisa “provar” que te dá energia — ele vende a sensação. É aquele
+            momento em que você toma e pensa: “agora vai”. Se vai mesmo… aí já é
+            outra história.
+          </p>
+
+          <p>
+            Resumo honesto: não é promessa de produtividade, é
+            <strong>sabor de produtividade</strong>.
+          </p>
+
+          <p class="preco">R$ 9,99</p>
+
+          <p class="tagline">
+            Promoção válida até a internet achar outra frase pra repetir.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>saBOuR</h2>
+
+        <div class="video-container">
+          <video autoplay muted loop playsinline>
+            <source
+              src="../Images/nao-consigo-parar-sabor-energetico.mp4"
+              type="video/mp4"
+            />
+            Seu navegador não suporta vídeo.
+          </video>
+        </div>
+      </section>
+
+      <section>
+        <h2>Conclusão da Atividade</h2>
+        <p>
+          Esta página foi desenvolvida como atividade prática de HTML, usando um
+          meme atual como tema. O foco é mostrar estrutura de conteúdo e estilo
+          visual, misturando “cara de propaganda” com humor.
+        </p>
+
+        <div class="alerta">
+          Observação: conteúdo meramente ilustrativo para fins acadêmicos.
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Atividade HTML - Tema: “Sabor Energético”</p>
+    </footer>
+  </body>
+</html>
